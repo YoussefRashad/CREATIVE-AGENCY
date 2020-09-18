@@ -1,0 +1,73 @@
+.contact {
+
+}
+
+.getintouch-items {
+    overflow: hidden;
+    margin-bottom : 20px;
+}
+
+.getintouch-items .item {
+    width: 30%;
+    float: left;
+    text-align: center
+}
+
+.getintouch-items .item.mg {
+    margin: 0 5%
+}
+
+.getintouch-items .item i {
+    color: #6195ff;
+}
+
+.getintouch-items .item-title {
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+.getintouch-items .item-text {
+    color: #6195ff;
+}
+
+.contact form {
+    width: 60%;
+    margin:30px auto
+}
+
+.contact form input, .contact form textarea{
+    width: 100%;
+    box-sizing: border-box;
+    height: 40px;
+    border: 0;
+    background: #f4f4f4;
+    border-bottom: 2px solid #eee;
+    color: #354052;
+    padding: 0 10px;
+    margin-bottom: 20px;
+}
+
+.contact form .two-inputs {
+    overflow: hidden
+}
+
+.contact form .two-inputs input {
+    width: 49%;
+    float: left
+}
+
+.contact form .two-inputs input:last-child{
+    margin-left: 2%
+}
+
+.contact form input[type=submit] {
+    width: 180px;
+    padding: 10px;
+    background: #6195ff;
+    color: #fff;
+    border: 0;
+    cursor: pointer;
+    margin: auto;
+    display:block;
+    font-family: inherit;
+}

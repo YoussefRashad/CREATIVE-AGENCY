@@ -1,0 +1,27 @@
+.about{
+}
+.about-item{
+    float: left;
+    width: 30%;
+    border: 1px solid #e8e8e8;
+    padding: 50px 20px;
+    text-align:center;
+}
+
+.about-item-title{
+    font-size: 24px;
+    margin: 15px 0;
+}
+.about-item-desc{
+    color: #999;
+    line-height: 1.5;
+    margin-bottom: 5px;
+}
+.about-item-link{
+    text-decoration: none;
+    color: #6195ff;
+}
+
+.ltr-effect:hover .about-item-title{
+    color: #fff;
+}

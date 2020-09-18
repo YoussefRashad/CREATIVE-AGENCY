@@ -1,0 +1,41 @@
+.testimonail{
+    background-image: url(../../assets/img//background/background3.webp);
+    height:400px;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+}
+.testimonail-items{
+    width: 80%;
+    margin:auto;
+    padding: 120px 0;
+}
+.testimonail-item{
+    float: left;
+    width: 40%;
+    margin: auto 5% auto 5%;
+    text-align: left;
+}
+.testimonail-item .toplayer{
+    position: relative;
+    padding: 10px 2px 40px 100px;
+}
+.testimonail-item .toplayer img{
+    position: absolute;
+    top:0px;
+    left:10px;
+    border-radius: 50%;
+}
+.testimonail-item-title{
+    color: #fff;
+    font-size: 20px;
+}
+.testimonail-item-job{
+    color: #6195ff;
+    font-size: 18px;
+}
+.testimonail-item-desc{
+    color: #fff;
+    line-height: 1.5;
+    font-size: 17px;
+}

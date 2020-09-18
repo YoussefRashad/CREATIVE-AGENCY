@@ -1,0 +1,29 @@
+.number{
+    background-image: url("../../assets/img//background/background2.webp");
+    background-attachment: fixed;
+    height: 300px;
+    position: relative;
+}
+.number-items{
+    padding: 100px 0;
+    margin: auto;
+}
+.number-item{
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+.number-item .icon{
+    font-size: 30px;
+    margin-bottom: 15 px;
+}
+.number-item-count{
+    font-size: 30px;
+    color: #fff;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.number-item-desc{
+    font-size: 18px;
+    color: #fff;
+}

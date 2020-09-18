@@ -1,0 +1,69 @@
+.pricing{
+
+}
+.pricing-items{
+    overflow: hidden;
+}
+.pricing-item{
+    float:left;
+    width:30%;
+    border: 1px solid #e8e8e8;
+}
+.pricing-item-content{
+    margin: auto;
+    text-align: center;
+    padding: 40px 15px;
+}
+.pricing-item-title{
+    color: #999;
+    text-transform: uppercase;
+}
+.pricing-title-salary{
+    border-radius: 50%;
+    border: 2px solid #6195ff;
+    width:130px;
+    height:130px;
+    margin: 20px auto;
+    padding: 20px 0;
+}
+.pricing-title-salary .dollar{
+    font-size:50px;
+    font-weight: bold
+}
+.pricing-title-salary .month{
+    font-size:16px;
+    font-weight: bold;
+    text-transform: uppercase
+}
+.pricing-item-content ul{
+    list-style: none;
+}
+.pricing-item-content ul li{
+    color: #999;
+    margin: 10px 0;
+}
+.pricing-item-content .purchase{
+    width: 180px;
+    color: #6195ff;
+    border: 1px solid #6195ff;
+    background-color: #fff;
+    height: 40px;
+    text-transform: capitalize;
+    margin-top: 10px;
+    transition: background-color 1.2s, ease 0s;
+}
+.pricing-item:hover .pricing-item-title{
+    color: #6195ff;
+}
+.pricing-item:hover .pricing-title-salary .dollar,
+.pricing-item:hover .pricing-title-salary .month
+{
+    color: #fff;
+}
+.pricing-item:hover .pricing-item-content .purchase{
+    background-color: #333;
+}
+.pricing-item-content .purchase:hover .purchase{
+    background-color: #fff;
+}
+

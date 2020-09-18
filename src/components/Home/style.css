@@ -1,0 +1,36 @@
+
+
+.home{
+    background-image:url('../../assets/img/background/background1.webp');
+    background-attachment: fixed;
+    background-size:cover;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+.home-content{
+    position: absolute;
+    left:50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    color:#fff;
+    width: 65%;
+}
+.home-title{
+    font-size: 3.5rem;
+    text-transform: uppercase;
+}
+.home-desc{
+    line-height: 1.5;
+    margin: 15px 0px;
+    letter-spacing: 2px;
+}
+.btn-info{
+    margin-right: 10px;
+}
+.btn-learn{
+    background-color: #6195ff;
+    color: #fff;
+
+}

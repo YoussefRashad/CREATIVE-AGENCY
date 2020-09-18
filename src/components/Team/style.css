@@ -1,0 +1,73 @@
+
+.team-items{
+    overflow: hidden;
+}
+.team-item{
+    width:30%;
+    float:left;
+    background-color: #e8e8e8;
+    padding: 40px 10px;
+    text-align: center;
+}
+.team-item-img{
+    width:90%;
+    margin: auto;
+    position: relative;
+}
+
+.team-item-img img{
+    width:100%;
+    display: block;
+}
+.team-overlay{
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left:0;
+    right:0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: block;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.3s, visibility 0.3s, ease 0s;
+}
+.team-overlay a{
+    display: block;
+    width:40px;
+    height:40px;
+    background: #6195ff;
+    margin-left: auto;
+    line-height: 40px;
+}
+.team-overlay a i{
+    color: #fff;
+}
+.team-item-info{
+    margin-top: 5px;
+}
+.team-item-title{
+    font-size: 19px;
+    text-transform: capitalize;
+    transition: color 0.3s, ease 0s;
+}
+.team-item-position{
+    color: #999;
+    display: block;
+    margin-top: 10px;
+    font-size: 14px;
+    text-transform: uppercase;
+    transition: color 0.3s, ease 0s;
+}
+.team-item:hover .team-overlay{
+    opacity: 1;
+    visibility: visible;
+}
+.team-item.ttb-effect{
+    z-index: 1;
+}
+.team-item:hover .team-item-title{
+    color: #fff;
+}
+.team-item:hover .team-item-position{
+    color: #6195ff;
+}

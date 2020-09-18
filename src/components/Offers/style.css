@@ -1,0 +1,32 @@
+.offer{
+
+}
+
+.offer-item{
+    float:left;
+    width:30%;
+    border: 1px solid #e8e8e8;
+    padding: 30px 15px 30px 70px;
+    position: relative;
+    margin-bottom: 20px; 
+}
+.offer-item i{
+    position: absolute;
+    top: 30px;
+    left:20px;
+    color: #6195ff;
+}
+.offer-item-title{
+    font-size: 20px;
+    text-transform: capitalize;
+    margin-bottom: 15px; 
+}
+.offer-item-desc{
+    color: #999;
+    line-height: 1.6;
+    font-size: 17px;
+    margin-bottom: 15px; 
+}
+.ltr-effect:hover .offer-item-title{
+    color: #fff;
+}
