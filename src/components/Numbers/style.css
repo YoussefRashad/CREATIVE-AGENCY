@@ -14,8 +14,8 @@
     text-align: center;
 }
 .number-item .icon{
-    font-size: 30px;
-    margin-bottom: 15 px;
+    font-size: 36px;
+    margin-bottom: 15px;
 }
 .number-item-count{
     font-size: 30px;
@@ -26,4 +26,21 @@
 .number-item-desc{
     font-size: 18px;
     color: #fff;
+}
+
+@media(max-width: 576px){
+    .number{
+        height: 500px;
+    }
+}
+
+@media(min-width: 577px){
+    .number{
+        height: 400px;
+    }
+}
+@media(min-width: 768px){
+    .number{
+        height: 300px;
+    }
 }

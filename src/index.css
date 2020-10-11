@@ -2,13 +2,11 @@
     padding: 0;
     margin:0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
+
 }
 body {
     font-family: 'Varela Round', sans-serif;
-}
-.container{
-    margin:auto;
-    width:80%;
 }
 .overflow{
     overflow: hidden;
@@ -25,7 +23,7 @@ h1, h2, h3, h4, h5, h6 {
     height: 100%;
     background-color: rgba(0, 0, 0, 0.7)
 }
-.btn{
+.bttn{
     width: 160px;
     text-align: center;
     font-size: 18px;
@@ -89,7 +87,7 @@ h1, h2, h3, h4, h5, h6 {
     z-index: -1;
     opacity: 0;
     visibility: hidden;
-    transition: width 0.3s, opacity 0.3s, visibility 0.3s, ease 0s;
+    transition: width 0.4s, opacity 0.4s, visibility 0.4s;
 }
 .ltr-effect:hover::after{
     opacity: 1;
@@ -112,7 +110,7 @@ h1, h2, h3, h4, h5, h6 {
     z-index: -1;
     opacity: 0;
     visibility: hidden;
-    transition: height 0.3s, opacity 0.3s, visibility 0.3s, ease 0s;
+    transition: height 0.4s, opacity 0.4s, visibility 0.4s;
 }
 .ttb-effect:hover::after{
     opacity: 1;

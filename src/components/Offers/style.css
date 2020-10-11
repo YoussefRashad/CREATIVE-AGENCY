@@ -3,8 +3,6 @@
 }
 
 .offer-item{
-    float:left;
-    width:30%;
     border: 1px solid #e8e8e8;
     padding: 30px 15px 30px 70px;
     position: relative;

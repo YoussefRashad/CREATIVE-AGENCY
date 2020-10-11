@@ -31,3 +31,13 @@
 .footer .copyright span{
     text-transform: capitalize;
 }
+
+.footer h3{
+    color: #fff;
+    font: normal 25px 'Cookie', cursive;
+    margin: 0 0 25px 0;
+}
+
+.footer h3 span {
+    color: #e0ac1c;
+}

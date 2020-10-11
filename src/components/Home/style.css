@@ -26,11 +26,30 @@
     margin: 15px 0px;
     letter-spacing: 2px;
 }
-.btn-info{
+.bttn-info{
     margin-right: 10px;
 }
-.btn-learn{
+.bttn-learn{
     background-color: #6195ff;
     color: #fff;
-
+}
+.bttn-info a{
+    color: #000;
+    text-decoration: none;
+    width: 100%;
+}
+.bttn-learn a{
+    color: #fff;
+    text-decoration: none;
+}
+@media(max-width: 492px){
+    .home-content{
+        margin-top: 30px;
+    }
+    .home-title{
+        font-size: 2.5rem;
+    }
+    .bttn-info{
+        margin: 0;
+    }
 }

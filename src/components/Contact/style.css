@@ -1,15 +1,10 @@
-.contact {
 
-}
 
 .getintouch-items {
-    overflow: hidden;
     margin-bottom : 20px;
 }
 
 .getintouch-items .item {
-    width: 30%;
-    float: left;
     text-align: center
 }
 
@@ -31,7 +26,7 @@
 }
 
 .contact form {
-    width: 60%;
+    width: 65%;
     margin:30px auto
 }
 
@@ -47,13 +42,13 @@
     margin-bottom: 20px;
 }
 
-.contact form .two-inputs {
-    overflow: hidden
+
+.contact form textarea{
+    height: 80px;
 }
 
 .contact form .two-inputs input {
     width: 49%;
-    float: left
 }
 
 .contact form .two-inputs input:last-child{

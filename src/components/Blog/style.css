@@ -1,7 +1,4 @@
-.blog-item{
-    width: 30%;
-    float: left;
-}
+
 .blog-item-img img{
     width:100%;
 }
@@ -20,11 +17,14 @@
     color: #6195ff;
 }
 .blog-item ul li p{
-    display: inline-block
+    display: inline-block;
+    margin-left: 2px;
+    color: rgba(0, 0, 0, .7)
 }
 .blog-item-title{
     font-size: 20px;
-    margin: 20px 0; 
+    margin: 20px 0;
+    font-weight: 700;
 }
 .blog-item-desc{
     color: #999;

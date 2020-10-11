@@ -2,8 +2,6 @@
     
 }
 .portfolio-item{
-    float:left;
-    width:30%;
     position: relative;
     padding: 20px;
     margin-bottom: 25px;
@@ -39,7 +37,7 @@
     margin: 5px 0px;
     top: 10px;
     opacity: 0;
-    transition: top 0.5s, opacity 0.5s, visibility 0.5s;
+    transition: top 0.3s, opacity 0.3s, visibility 0.3s;
     transition-delay: 0.2s;
 }
 
@@ -51,7 +49,7 @@
     margin-bottom: 16px;
     top: 10px;
     opacity: 0;
-    transition: top 0.5s, opacity 0.5s, visibility 0.5s;
+    transition: top 0.3s, opacity 0.3s, visibility 0.3s;
     transition-delay: 0.3s;
 }
 .layer-info a{
@@ -59,7 +57,7 @@
     visibility: hidden;
     position: relative;
     top: 10px;
-    transition: top 0.5s, opacity 0.5s, visibility 0.5s;
+    transition: top 0.3s, opacity 0.3s, visibility 0.3s;
     transition-delay: 0.3s;
     margin-right: 5px;
 }

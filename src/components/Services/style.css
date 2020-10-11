@@ -5,10 +5,7 @@
 .service .section-header .line{
     margin: 0 0 40px 0;
 }
-.service-item{
-    float: left;
-    width:50%;
-}
+
 .service-item-desc{
     color: #999;
     line-height: 1.6;

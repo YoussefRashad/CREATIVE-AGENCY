@@ -1,8 +1,6 @@
 .about{
 }
 .about-item{
-    float: left;
-    width: 30%;
     border: 1px solid #e8e8e8;
     padding: 50px 20px;
     text-align:center;

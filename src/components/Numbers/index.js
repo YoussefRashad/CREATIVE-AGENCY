@@ -1,40 +1,26 @@
 import React from 'react';
+import Number from './Number'
 import './style.css';
-const Number = () => {
+import { dataNumber } from '../../data'
+
+const index = () => {
   return (
-    <div>
+    <main>
       <div className="number">
         <div className="overlay">
           <div className="container">
             <div className="number-items">
-              <div className="number-item">
-                <span><i className="icon fa fa-users fa-2x" /></span>
-                <p className="number-item-count">451</p>
-                <p className="number-item-desc">Happy clients</p>
-              </div>
-              <div className="number-item">
-                <span><i className="icon fa fa-trophy fa-2x" /></span>
-                <p className="number-item-count">451</p>
-                <p className="number-item-desc">Happy clients</p>
-              </div>
-              <div className="number-item">
-                <span><i className="icon fa fa-coffee fa-2x" /></span>
-                <p className="number-item-count">451K</p>
-                <p className="number-item-desc">Happy clients</p>
-              </div>
-              <div className="number-item">
-                <span><i className="icon fa fa-file fa-2x" /></span>
-                <p className="number-item-count">451</p>
-                <p className="number-item-desc">Happy clients</p>
+              <div className="row">
+
+                {dataNumber.map((item, index)=> <Number {...item} key={index} /> )}
+
               </div>
             </div>
           </div>
         </div>
-        <div className="clear" />
       </div>
-
-    </div>
+    </main>
   );
 };
 
-export default Number;
+export default index;
