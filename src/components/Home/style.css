@@ -42,14 +42,14 @@
     color: #fff;
     text-decoration: none;
 }
-@media(max-width: 492px){
+@media(max-width: 524px){
     .home-content{
         margin-top: 30px;
     }
     .home-title{
         font-size: 2.5rem;
     }
-    .bttn-info{
+    .bttn{
         margin: 0;
     }
 }

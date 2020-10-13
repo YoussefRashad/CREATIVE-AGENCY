@@ -3,19 +3,19 @@ import { BrowserRouter } from 'react-router-dom';
 import './App.css';
 
 // all components
-import Header from './components/Nav/index';
-import Home from './components/Home/index';
-import About from './components/About/index';
-import Portfolio from './components/Portfolio/index';
-import Offers from './components/Offers/index';
-import Service from './components/Services/index';
-import Number from './components/Numbers/index';
-import Pricing from './components/Pricing/index';
-import Testimonial from './components/Testimonial/index';
-import Team from './components/Team/index';
-import Blog from './components/Blog/index';
-import Contact from './components/Contact/index';
-import Footer from './components/Footer/index';
+import Header from './components/Nav';
+import Home from './components/Home';
+import About from './components/About';
+import Portfolio from './components/Portfolio';
+import Offers from './components/Offers';
+import Service from './components/Services';
+import Number from './components/Numbers';
+import Pricing from './components/Pricing';
+import Testimonial from './components/Testimonial';
+import Team from './components/Team';
+import Blog from './components/Blog';
+import Contact from './components/Contact';
+import Footer from './components/Footer';
 
 
 export default function App() {

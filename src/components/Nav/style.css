@@ -13,6 +13,7 @@
     color: #fff;
 }
 
+
 .navbar .container .nav > ul > li a::after{
     content:"";
     width:0%;
@@ -37,22 +38,18 @@
     color: #fff
 }
 @media(max-width: 991.98px){
-    .navbar{
-        padding: 0 12px;
-        height: 70px;
-    }
     .navbar h3{
         font: normal 20px 'Cookie', cursive;
     }
 
     .navbar .container .nav > ul > li > a{
-        color: #6195ff;
+        color: #fff;
     }
     .navbar .navbar-nav .nav-link.active{
-        color: #6195ff
+        color: #fff
     }
     .navbar .container .nav > ul > li a:hover{
-        color: #e0ac1c;
+        color: #fff;
     }
 
     .navbar .container .nav > ul > li a::after{
@@ -60,13 +57,11 @@
     }
 
 }
-/*
-footer
-*/
 
+/* LOGO */
 .navbar h3{
     color: #fff;
-    font: normal 30px 'Cookie', cursive;
+    font: normal 34px 'Cookie', cursive;
     margin: 0;
 }
 
